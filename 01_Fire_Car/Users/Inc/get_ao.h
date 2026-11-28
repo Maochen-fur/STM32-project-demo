@@ -9,7 +9,7 @@
 #define adc_in_num 5
 #define adc_num &hadc1
 
-#define ADC_FIRE_THRESHOLD 3000		// 火焰检测阈值 (注意：逻辑上取最小值时，阈值的含义可能需要你重新确认)
+#define ADC_FIRE_THRESHOLD 3000		// 火焰检测阈值 
 
 extern uint32_t adc_value[adc_in_num];
 
